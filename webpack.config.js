@@ -7,11 +7,11 @@ const config = {
     filename: 'bundle.js'
   },
   module: {
-    loadoers: [
+    loaders: [
       {
-        test: /\.jsx$/,
+        test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel'
+        loader: 'babel-loader'
       }
     ]
   }
