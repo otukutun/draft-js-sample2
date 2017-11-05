@@ -20,6 +20,8 @@
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
+    "draft-js": "^0.10.4",
+    "es6-shim": "^0.35.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }
